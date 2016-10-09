@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "133919577643",
+    "firebase_url": "https://snap-23626.firebaseio.com",
+    "project_id": "snap-23626",
+    "storage_bucket": "snap-23626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133919577643:android:114ef7ab1a8fb0cc",
+        "android_client_info": {
+          "package_name": "snapcat.chalmers.jacobthapps.snapcat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133919577643-omr9v1e08p71ftaiopj5bggmgffs3pn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADmLrrlP5HOgLrghSF91CKMBTvyxy6g7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133919577643:android:973ae84abbde1995",
+        "android_client_info": {
+          "package_name": "shutdown.chalmergps.jacobth.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133919577643-omr9v1e08p71ftaiopj5bggmgffs3pn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADmLrrlP5HOgLrghSF91CKMBTvyxy6g7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133919577643:android:ee196e4faf934aeb",
+        "android_client_info": {
+          "package_name": "shutdown.chalmergps.jacobth.snapcha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133919577643-omr9v1e08p71ftaiopj5bggmgffs3pn1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADmLrrlP5HOgLrghSF91CKMBTvyxy6g7c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

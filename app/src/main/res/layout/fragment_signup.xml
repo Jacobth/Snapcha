@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    tools:context="shutdown.chalmergps.jacobth.snapcha.SignupFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingBottom="18dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:id="@+id/accountButton"
+            android:background="@drawable/buttonsign"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:id="@+id/textView5"
+            android:textColor="@android:color/darker_gray"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="225dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNewUser"
+            android:lines="1"
+            android:layout_below="@id/textView5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:id="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@id/editNewUser"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editNewEmail"
+            android:lines="1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/textView6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:id="@+id/textView7"
+            android:layout_alignParentStart="true"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@id/editNewEmail"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editNewPassword"
+            android:layout_below="@+id/textView7"
+            android:layout_alignEnd="@+id/editNewUser"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Register a user"
+            android:id="@+id/textView8"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/sign_loader"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/spinner"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:paddingBottom="28dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

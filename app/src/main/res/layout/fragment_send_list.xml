@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shutdown.chalmergps.jacobth.snapcha.SendListFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        >
+
+        <View
+            android:id="@+id/topSend"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            />
+
+        <View
+            android:id="@+id/topSendBelow"
+            android:layout_below="@id/topSend"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Send To..."
+            android:textColor="@color/colorTop"
+            android:id="@+id/textView"
+            android:layout_above="@+id/topSendBelow"
+            android:padding="16dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/contactSendView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topSendBelow"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            />
+
+        <View
+            android:id="@+id/top"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@color/colorTop"
+            />
+
+        <View
+            android:id="@+id/bottomFake"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="6dp"
+            android:background="@android:color/transparent"
+            />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@mipmap/sendwhite"
+            android:id="@+id/sendmulti"
+            android:background="@null"
+            android:layout_marginEnd="22dp"
+            android:layout_above="@id/bottomFake"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/senderText"
+            android:layout_above="@id/bottomFake"
+            android:padding="16dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</FrameLayout>
+
